@@ -79,7 +79,7 @@ namespace ShopBridge.Controllers
             }
         }
 
-        // PUT api/values/5
+        // PUT api/values/5/
         public async  Task<HttpResponseMessage> Put(int id, [FromBody] Product prod)
         {
             try
